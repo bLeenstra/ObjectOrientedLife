@@ -6,22 +6,20 @@ namespace TheWorld.World
     {
         public enum Gender {
             Male,
-            Female,
-            Asexual
+            Female
         }
         private bool _alive;
         private readonly DateTime _dateOfBirth;
         private Gender _sex;
 
-        public LifeForm() : this(DateTime.Now){}
+        public LifeForm() : this(DateTime.Now, Gender.Male){}
 
-        public LifeForm(DateTime dateofBirth){
-            _alive = true;
-            _dateOfBirth = dateofBirth;
-        }
+        public LifeForm(Gender sex) : this(DateTime.Now, sex){}
 
         public LifeForm(DateTime dateofBirth, Gender sex){
             _alive = true;
+            _dateOfBirth = dateofBirth;
+            _sex = sex;
         }
 
         public bool Alive {
