@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace TheWorld.World.Life {
     /// <summary>
-    ///     https://en.wikipedia.org/wiki/Primate
+    ///     placentals
+    ///     https://en.wikipedia.org/wiki/Boreoeutheria 
     /// </summary>
-    class Primate : Euarchontoglires {
-        
-        public Primate() : base() {
+    class Boreoeutheria : Eutheria {
+
+        public Boreoeutheria() : base() {
 
         }
     }

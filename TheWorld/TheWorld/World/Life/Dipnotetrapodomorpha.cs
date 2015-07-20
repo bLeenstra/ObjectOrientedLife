@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace TheWorld.World.Life {
     /// <summary>
-    ///     https://en.wikipedia.org/wiki/Primate
+    ///     Rhipidistia
+    ///     https://en.wikipedia.org/wiki/Rhipidistia
     /// </summary>
-    class Primate : Euarchontoglires {
-        
-        public Primate() : base() {
+    class Dipnotetrapodomorpha : Sarcopterygii {
+
+        public Dipnotetrapodomorpha() : base() {
 
         }
     }

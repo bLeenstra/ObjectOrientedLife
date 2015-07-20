@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace TheWorld.World.Life {
     /// <summary>
-    ///     https://en.wikipedia.org/wiki/Primate
+    ///     tetrapod
+    ///     https://en.wikipedia.org/wiki/Tetrapod
     /// </summary>
-    class Primate : Euarchontoglires {
-        
-        public Primate() : base() {
+    class Tetrapoda : Dipnotetrapodomorpha {
+
+        public Tetrapoda() : base() {
 
         }
     }

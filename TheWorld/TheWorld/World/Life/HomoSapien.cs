@@ -2,13 +2,17 @@
 
 namespace TheWorld.World.Life
 {
-    class Human : Primate
-    {
+    /// <summary>
+    ///     Human
+    ///     https://en.wikipedia.org/wiki/Homo_sapiens
+    /// </summary>
+    class HomoSapien : Homo {
+
         private string _name;
         private int _height;
         private int _weight;
 
-        public Human(DateTime dateofBirth, string name, int height, int weight) : base(dateofBirth){
+        public HomoSapien(DateTime dateofBirth, string name, int height, int weight) : base() {
             _name = name;
             _height = height;
             _weight = weight;

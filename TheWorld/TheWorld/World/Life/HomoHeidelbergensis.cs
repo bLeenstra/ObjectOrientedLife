@@ -5,12 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TheWorld.World.Life {
-    /// <summary>
-    ///     https://en.wikipedia.org/wiki/Primate
-    /// </summary>
-    class Primate : Euarchontoglires {
-        
-        public Primate() : base() {
+    class HomoHeidelbergensis : Homo {
+
+        public HomoHeidelbergensis() : base() {
 
         }
     }

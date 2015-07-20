@@ -41,13 +41,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GlobalFunctions\DateFunctions.cs" />
+    <Compile Include="World\Life\Amniota.cs" />
     <Compile Include="World\Life\Archaea.cs" />
+    <Compile Include="World\Life\Bilateria.cs" />
+    <Compile Include="World\Life\Boreoeutheria.cs" />
+    <Compile Include="World\Life\Catarrhini.cs" />
+    <Compile Include="World\Life\Chordata.cs" />
+    <Compile Include="World\Life\Craniata.cs" />
+    <Compile Include="World\Life\Deuterostomia.cs" />
+    <Compile Include="World\Life\Dipnotetrapodomorpha.cs" />
+    <Compile Include="World\Life\Euarchontoglires.cs" />
     <Compile Include="World\Life\Eubacteria.cs" />
     <Compile Include="World\Life\Eukaryotes.cs" />
-    <Compile Include="World\Life\Human.cs" />
+    <Compile Include="World\Life\Eumetazoa.cs" />
+    <Compile Include="World\Life\Euteleostomi.cs" />
+    <Compile Include="World\Life\Eutheria.cs" />
+    <Compile Include="World\Life\Gnathostomata.cs" />
+    <Compile Include="World\Life\Haplorhini.cs" />
+    <Compile Include="World\Life\Hominidae.cs" />
+    <Compile Include="World\Life\Homininae.cs" />
+    <Compile Include="World\Life\Hominoidea.cs" />
+    <Compile Include="World\Life\Homo.cs" />
+    <Compile Include="World\Life\HomoHeidelbergensis.cs" />
+    <Compile Include="World\Life\HomoSapien.cs" />
     <Compile Include="World\Life\LifeForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="World\Life\Mammalia.cs" />
+    <Compile Include="World\Life\Metazoa.cs" />
+    <Compile Include="World\Life\Opisthokont.cs" />
     <Compile Include="World\Life\Primate.cs" />
+    <Compile Include="World\Life\Sarcopterygii .cs" />
+    <Compile Include="World\Life\Simiiformes.cs" />
+    <Compile Include="World\Life\Teleostomi.cs" />
+    <Compile Include="World\Life\Tetrapoda.cs" />
+    <Compile Include="World\Life\Theria.cs" />
+    <Compile Include="World\Life\Vertebrata.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,8 +1,14 @@
-﻿namespace TheWorld.World.Life {
+﻿using System;
+
+namespace TheWorld.World.Life {
     /// <summary>
     ///     Single Cell Organisms
     ///     https://en.wikipedia.org/wiki/Archaea
     /// </summary>
-    class Archaea {
+    class Archaea : LifeForm {
+
+        public Archaea() : base() {
+
+        }
     }
 }
