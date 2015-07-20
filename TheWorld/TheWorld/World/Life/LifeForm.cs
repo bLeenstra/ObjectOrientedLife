@@ -1,25 +1,17 @@
 ﻿using System;
 
-namespace TheWorld.World
+namespace TheWorld.World.Life
 {
     public class LifeForm
     {
-        public enum Gender {
-            Male,
-            Female
-        }
         private bool _alive;
         private readonly DateTime _dateOfBirth;
-        private Gender _sex;
 
-        public LifeForm() : this(DateTime.Now, Gender.Male){}
+        public LifeForm() : this(DateTime.Now){}
 
-        public LifeForm(Gender sex) : this(DateTime.Now, sex){}
-
-        public LifeForm(DateTime dateofBirth, Gender sex){
+        public LifeForm(DateTime dateofBirth){
             _alive = true;
             _dateOfBirth = dateofBirth;
-            _sex = sex;
         }
 
         public bool Alive {
@@ -30,10 +22,5 @@ namespace TheWorld.World
         public DateTime DateOfBirth => _dateOfBirth;
 
         public int Age => GlobalFunctions.DateFunctions.YearsDifference(DateOfBirth, DateTime.Today);
-
-        public Gender Sex {
-            get { return _sex; }
-            set { _sex = value; }
-        }
     }
 }

@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace TheWorld.World
+namespace TheWorld.World.Life
 {
-    class Human : Mammal
+    class Human : Primate
     {
         private string _name;
         private int _height;
         private int _weight;
 
-        public Human(DateTime dateofBirth, Gender sex, string name, int height, int weight) :base(dateofBirth, sex){
+        public Human(DateTime dateofBirth, string name, int height, int weight) : base(dateofBirth){
             _name = name;
             _height = height;
             _weight = weight;

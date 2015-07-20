@@ -41,10 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GlobalFunctions\DateFunctions.cs" />
-    <Compile Include="World\Human.cs" />
-    <Compile Include="World\LifeForm.cs" />
+    <Compile Include="World\Life\Archaea.cs" />
+    <Compile Include="World\Life\Eubacteria.cs" />
+    <Compile Include="World\Life\Eukaryotes.cs" />
+    <Compile Include="World\Life\Human.cs" />
+    <Compile Include="World\Life\LifeForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="World\Mammal.cs" />
+    <Compile Include="World\Life\Primate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
