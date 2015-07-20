@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Haplorhini : Primate{
 
-        public Haplorhini() : base() {
+        internal Haplorhini() : base() {
 
         }
     }

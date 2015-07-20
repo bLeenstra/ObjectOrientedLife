@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Metazoa : Opisthokont {
 
-        public Metazoa() : base() {
+        internal Metazoa() : base() {
 
         }
     }

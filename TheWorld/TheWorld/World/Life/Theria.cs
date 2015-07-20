@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Theria : Mammalia {
 
-        public Theria() : base() {
+        internal Theria() : base() {
 
         }
     }

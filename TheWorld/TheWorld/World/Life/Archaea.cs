@@ -7,7 +7,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Archaea : LifeForm {
 
-        public Archaea() : base() {
+        internal Archaea() : base() {
 
         }
     }

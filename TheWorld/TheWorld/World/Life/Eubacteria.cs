@@ -5,7 +5,7 @@
     /// </summary>
     class Eubacteria : LifeForm {
 
-        public Eubacteria() : base() {
+        internal Eubacteria() : base() {
 
         }
     }

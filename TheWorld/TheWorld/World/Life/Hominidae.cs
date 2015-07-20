@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Hominidae : Hominoidea {
 
-        public Hominidae() : base() {
+        internal Hominidae() : base() {
 
         }
     }

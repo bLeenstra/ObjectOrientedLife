@@ -9,8 +9,8 @@ namespace TheWorld.World.Life {
     ///     https://en.wikipedia.org/wiki/Primate
     /// </summary>
     class Primate : Euarchontoglires {
-        
-        public Primate() : base() {
+
+        internal Primate() : base() {
 
         }
     }

@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Vertebrata : Craniata {
 
-        public Vertebrata() : base() {
+        internal Vertebrata() : base() {
 
         }
     }

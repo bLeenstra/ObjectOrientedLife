@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Euteleostomi : Teleostomi {
 
-        public Euteleostomi() : base() {
+        internal Euteleostomi() : base() {
 
         }
     }

@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Eutheria : Theria {
 
-        public Eutheria() : base() {
+        internal Eutheria() : base() {
 
         }
 

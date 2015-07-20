@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Chordata : Deuterostomia {
 
-        public Chordata() : base() {
+        internal Chordata() : base() {
 
         }
     }

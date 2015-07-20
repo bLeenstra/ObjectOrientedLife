@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Deuterostomia : Bilateria {
 
-        public Deuterostomia() : base() {
+        internal Deuterostomia() : base() {
 
         }
     }

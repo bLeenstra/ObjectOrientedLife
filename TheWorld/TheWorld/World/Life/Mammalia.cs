@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Mammalia: Amniota {
 
-        public Mammalia() : base() {
+        internal Mammalia() : base() {
 
         }
     }

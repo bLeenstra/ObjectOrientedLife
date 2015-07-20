@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Hominoidea : Catarrhini {
 
-        public Hominoidea() : base() {
+        internal Hominoidea() : base() {
 
         }
     }

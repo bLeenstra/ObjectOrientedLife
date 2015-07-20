@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Gnathostomata : Vertebrata {
 
-        public Gnathostomata() : base() {
+        internal Gnathostomata() : base() {
 
         }
     }

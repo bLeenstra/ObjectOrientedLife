@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Tetrapoda : Dipnotetrapodomorpha {
 
-        public Tetrapoda() : base() {
+        internal Tetrapoda() : base() {
 
         }
     }

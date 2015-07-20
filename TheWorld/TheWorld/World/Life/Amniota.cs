@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Amniota : Tetrapoda {
 
-        public Amniota() : base() {
+        internal Amniota() : base() {
 
         }
     }

@@ -7,9 +7,9 @@ namespace TheWorld.World.Life
         private bool _alive;
         private readonly DateTime _dateOfBirth;
 
-        public LifeForm() : this(DateTime.Now){}
+        internal LifeForm() : this(DateTime.Now){}
 
-        public LifeForm(DateTime dateofBirth){
+        internal LifeForm(DateTime dateofBirth){
             _alive = true;
             _dateOfBirth = dateofBirth;
         }

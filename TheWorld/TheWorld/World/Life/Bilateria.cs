@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Bilateria : Eumetazoa {
 
-        public Bilateria() : base() {
+        internal Bilateria() : base() {
 
         }
     }

@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Dipnotetrapodomorpha : Sarcopterygii {
 
-        public Dipnotetrapodomorpha() : base() {
+        internal Dipnotetrapodomorpha() : base() {
 
         }
     }

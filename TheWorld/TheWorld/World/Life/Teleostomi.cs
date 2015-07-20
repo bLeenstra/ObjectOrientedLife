@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Teleostomi : Gnathostomata {
 
-        public Teleostomi() : base() {
+        internal Teleostomi() : base() {
 
         }
     }

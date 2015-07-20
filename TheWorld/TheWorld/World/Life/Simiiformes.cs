@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Simiiformes : Haplorhini {
 
-        public Simiiformes(): base() {
+        internal Simiiformes() : base() {
 
         }
     }

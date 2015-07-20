@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Homininae : Hominidae {
 
-        public Homininae() : base() {
+        internal Homininae() : base() {
 
         }
     }

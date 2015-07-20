@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Euarchontoglires : Boreoeutheria {
 
-        public Euarchontoglires() : base() {
+        internal Euarchontoglires() : base() {
 
         }
     }

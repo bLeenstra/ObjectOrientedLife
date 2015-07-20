@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Craniata : Chordata {
 
-        public Craniata() : base() {
+        internal Craniata() : base() {
 
         }
     }

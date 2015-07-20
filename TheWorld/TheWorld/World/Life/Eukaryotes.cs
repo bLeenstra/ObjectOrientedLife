@@ -7,7 +7,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Eukaryotes : LifeForm {
 
-        public Eukaryotes() : base() {
+        internal Eukaryotes() : base() {
 
         }
     }
