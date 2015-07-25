@@ -7,7 +7,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Archaea : LifeForm {
 
-        internal Archaea() : base() {
+        internal Archaea() : base(DateTime.Now) {
 
         }
     }

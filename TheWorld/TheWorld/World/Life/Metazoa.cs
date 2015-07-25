@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Metazoa : Opisthokont {
 
-        internal Metazoa() : base() {
+        internal Metazoa(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

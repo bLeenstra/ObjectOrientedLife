@@ -1,4 +1,5 @@
 ﻿using System;
+using TheWorld.GlobalFunctions;
 
 namespace TheWorld.World.Life
 {
@@ -12,7 +13,11 @@ namespace TheWorld.World.Life
         private int _height;
         private int _weight;
 
-        public HomoSapien(DateTime dateofBirth, string name, int height, int weight) : base() {
+        public HomoSapien(string name) : this(DateTime.Now, name, IntegerFunctions.GetRandomInt(350, 500), IntegerFunctions.GetRandomInt(2000, 5000)) {
+
+        }
+
+        public HomoSapien(DateTime dateofBirth, string name, int height, int weight) : base(dateofBirth) {
             _name = name;
             _height = height;
             _weight = weight;
@@ -23,11 +28,17 @@ namespace TheWorld.World.Life
             set { _name = value; }
         }
 
+        /// <summary>
+        ///     Height kept in mm
+        /// </summary>
         public int Height{
             get { return _height; }
             set { _height = value; }
         }
 
+        /// <summary>
+        ///     Weight kept in grams
+        /// </summary>
         public int Weight{
             get { return _weight; }
             set { _weight = value; }

@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Euarchontoglires : Boreoeutheria {
 
-        internal Euarchontoglires() : base() {
+        internal Euarchontoglires(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

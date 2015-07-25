@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Deuterostomia : Bilateria {
 
-        internal Deuterostomia() : base() {
+        internal Deuterostomia(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

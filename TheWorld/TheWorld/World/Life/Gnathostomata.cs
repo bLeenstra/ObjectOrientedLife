@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Gnathostomata : Vertebrata {
 
-        internal Gnathostomata() : base() {
+        internal Gnathostomata(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

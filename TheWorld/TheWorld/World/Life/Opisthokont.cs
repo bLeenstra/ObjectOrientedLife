@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Opisthokont : Eukaryotes {
 
-        internal Opisthokont() : base() {
+        internal Opisthokont(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

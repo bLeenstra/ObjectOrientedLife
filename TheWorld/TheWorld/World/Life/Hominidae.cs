@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Hominidae : Hominoidea {
 
-        internal Hominidae() : base() {
+        internal Hominidae(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

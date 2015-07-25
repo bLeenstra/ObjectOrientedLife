@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Catarrhini : Simiiformes {
 
-        internal Catarrhini() : base() {
+        internal Catarrhini(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

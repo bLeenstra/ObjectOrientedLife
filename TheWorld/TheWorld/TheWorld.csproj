@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GlobalFunctions\DateFunctions.cs" />
+    <Compile Include="GlobalFunctions\IntegerFunctions.cs" />
     <Compile Include="World\Life\Amniota.cs" />
     <Compile Include="World\Life\Archaea.cs" />
     <Compile Include="World\Life\Bilateria.cs" />

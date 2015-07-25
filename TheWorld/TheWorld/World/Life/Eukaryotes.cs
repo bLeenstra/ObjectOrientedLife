@@ -7,7 +7,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Eukaryotes : LifeForm {
 
-        internal Eukaryotes() : base() {
+        internal Eukaryotes(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

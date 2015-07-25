@@ -9,9 +9,10 @@ namespace TheWorld.World.Life {
     ///     Chordate
     ///     https://en.wikipedia.org/wiki/Chordate
     /// </summary>
-    class Chordata : Deuterostomia {
+    internal class Chordata : Deuterostomia
+    {
 
-        internal Chordata() : base() {
+        internal Chordata(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

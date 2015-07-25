@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Bilateria : Eumetazoa {
 
-        internal Bilateria() : base() {
+        internal Bilateria(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

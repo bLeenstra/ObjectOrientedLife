@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Sarcopterygii : Euteleostomi{
 
-        internal Sarcopterygii() : base() {
+        internal Sarcopterygii(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

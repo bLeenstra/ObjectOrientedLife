@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TheWorld.World.Life {
     class HomoHeidelbergensis : Homo {
 
-        public HomoHeidelbergensis() : base() {
+        public HomoHeidelbergensis(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

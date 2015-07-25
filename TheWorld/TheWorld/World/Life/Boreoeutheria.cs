@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Boreoeutheria : Eutheria {
 
-        internal Boreoeutheria() : base() {
+        internal Boreoeutheria(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }

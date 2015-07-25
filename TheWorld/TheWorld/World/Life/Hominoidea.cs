@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Hominoidea : Catarrhini {
 
-        internal Hominoidea() : base() {
+        internal Hominoidea(DateTime dateofBirth) : base(dateofBirth) {
 
         }
     }
