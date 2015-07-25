@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Mammalia: Amniota {
 
-        internal Mammalia(DateTime dateofBirth) : base(dateofBirth) {
+        internal Mammalia(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

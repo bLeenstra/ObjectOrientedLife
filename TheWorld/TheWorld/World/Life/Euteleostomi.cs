@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Euteleostomi : Teleostomi {
 
-        internal Euteleostomi(DateTime dateofBirth) : base(dateofBirth) {
+        internal Euteleostomi(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

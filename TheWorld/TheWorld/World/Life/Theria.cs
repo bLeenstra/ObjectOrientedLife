@@ -14,8 +14,8 @@ namespace TheWorld.World.Life {
 
         private bool _pregnant;
 
-        internal Theria(DateTime dateofBirth) : base(dateofBirth) {
-
+        internal Theria(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth){
+            _pregnant = false;
         }
 
         /// <summary>
@@ -23,7 +23,11 @@ namespace TheWorld.World.Life {
         /// </summary>
         public bool Pregnant{
             get { return _pregnant; }
-            set{ _pregnant = value; }
+            set {
+                if( Sex == Gender.Female ) {
+                    _pregnant=value;
+                }
+            }
         }
     }
 }

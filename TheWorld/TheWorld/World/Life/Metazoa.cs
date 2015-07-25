@@ -11,8 +11,20 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Metazoa : Opisthokont {
 
-        internal Metazoa(DateTime dateofBirth) : base(dateofBirth) {
+        public enum Gender {
+            Male,
+            Female
+        }
 
+        private Gender _sex;
+
+        internal Metazoa(Gender sex, DateTime dateofBirth) : base(dateofBirth){
+            _sex = sex;
+        }
+
+        public Gender Sex {
+            get { return _sex; }
+            set { _sex = value; }
         }
     }
 }

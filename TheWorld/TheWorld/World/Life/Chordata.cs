@@ -12,7 +12,7 @@ namespace TheWorld.World.Life {
     internal class Chordata : Deuterostomia
     {
 
-        internal Chordata(DateTime dateofBirth) : base(dateofBirth) {
+        internal Chordata(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

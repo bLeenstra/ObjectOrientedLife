@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Amniota : Tetrapoda {
 
-        internal Amniota(DateTime dateofBirth) : base(dateofBirth) {
+        internal Amniota(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

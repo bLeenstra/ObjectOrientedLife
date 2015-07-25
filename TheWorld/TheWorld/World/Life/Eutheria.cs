@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Eutheria : Theria {
 
-        internal Eutheria(DateTime dateofBirth) : base(dateofBirth) {
+        internal Eutheria(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
 

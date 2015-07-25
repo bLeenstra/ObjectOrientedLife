@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Vertebrata : Craniata {
 
-        internal Vertebrata(DateTime dateofBirth) : base(dateofBirth) {
+        internal Vertebrata(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

@@ -13,11 +13,11 @@ namespace TheWorld.World.Life
         private int _height;
         private int _weight;
 
-        public HomoSapien(string name) : this(DateTime.Now, name, IntegerFunctions.GetRandomInt(350, 500), IntegerFunctions.GetRandomInt(2000, 5000)) {
+        public HomoSapien(string name) : this((Gender)EnumFunctions.GetRandomEnumElement(default(Gender)), DateTime.Now, name, IntegerFunctions.GetRandomInt(350, 500), IntegerFunctions.GetRandomInt(2000, 5000)) {
 
         }
 
-        public HomoSapien(DateTime dateofBirth, string name, int height, int weight) : base(dateofBirth) {
+        public HomoSapien(Gender sex, DateTime dateofBirth, string name, int height, int weight) : base(sex, dateofBirth) {
             _name = name;
             _height = height;
             _weight = weight;

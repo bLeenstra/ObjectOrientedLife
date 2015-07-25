@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Teleostomi : Gnathostomata {
 
-        internal Teleostomi(DateTime dateofBirth) : base(dateofBirth) {
+        internal Teleostomi(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

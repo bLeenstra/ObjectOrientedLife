@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Craniata : Chordata {
 
-        internal Craniata(DateTime dateofBirth) : base(dateofBirth) {
+        internal Craniata(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

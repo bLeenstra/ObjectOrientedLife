@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Haplorhini : Primate{
 
-        internal Haplorhini(DateTime dateofBirth) : base(dateofBirth) {
+        internal Haplorhini(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

@@ -11,7 +11,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Dipnotetrapodomorpha : Sarcopterygii {
 
-        internal Dipnotetrapodomorpha(DateTime dateofBirth) : base(dateofBirth) {
+        internal Dipnotetrapodomorpha(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

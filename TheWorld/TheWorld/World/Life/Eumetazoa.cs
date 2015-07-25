@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Eumetazoa : Metazoa {
 
-        internal Eumetazoa(DateTime dateofBirth) : base(dateofBirth) {
+        internal Eumetazoa(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }

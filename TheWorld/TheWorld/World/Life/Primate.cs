@@ -10,7 +10,7 @@ namespace TheWorld.World.Life {
     /// </summary>
     class Primate : Euarchontoglires {
 
-        internal Primate(DateTime dateofBirth) : base(dateofBirth) {
+        internal Primate(Gender sex, DateTime dateofBirth) : base(sex, dateofBirth) {
 
         }
     }
